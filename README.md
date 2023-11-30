@@ -4,7 +4,10 @@
 The zip file containing this website is linked to this project. It includes all of the PHP files used along with an SQL file for the database. You can import my SQL database to your own if you would like to test out the website. All of the HTML and CSS code is wrapped in with the PHP code.
 
 ### Key Features
-
+* User passwords are stored as hashes for security
+* Database can be updated for the website
+* Website adjusts automatically with database changes
+* Only users can access the interior of the website
 
 ### Website Content
 &emsp; Upon first entering the website, you will have the chance to log in if you are an existing user or register if you do not have an account. The login page is the first page you will encounter and it checks to see if your login information is inside of the database when you attempt to login.
@@ -38,6 +41,15 @@ The zip file containing this website is linked to this project. It includes all 
 
 ![Log Out](https://github.com/bendery13/CS234_Website/assets/152329584/93a408f6-67bf-481a-912e-0380abc508f0)
 
+Here are the three tables that run the database.
+#### Registration
+![Registration](https://github.com/bendery13/CS234_Website/assets/152329584/b767a46c-70de-43e2-8ad5-67093f884abd)
+
+#### Artists
+![Artists](https://github.com/bendery13/CS234_Website/assets/152329584/51a00aef-3a99-43c0-9950-35f3a6f10669)
+
+#### Albums
+![Albums](https://github.com/bendery13/CS234_Website/assets/152329584/8591d57d-ba6d-4ba7-8d48-54f7e98a0dbd)
 
 
 
